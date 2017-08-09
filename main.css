@@ -1,0 +1,65 @@
+body{
+    background-image: url("http://wallpaper-gallery.net/images/wooden-background-wallpaper/wooden-background-wallpaper-25.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 90px;
+    text-align:center;
+    font-family: 'Orbitron', sans-serif; 
+    color:whitesmoke;
+}
+.board{
+    margin: 4% auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.color-0,.color-1,.color-2,.color-3{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    border:5px solid;
+}
+.color-0{
+    background-color: blue;
+}
+.color-1{
+    background-color: green;
+}
+.color-2{
+    background-color: red;
+}
+.color-3{
+    background-color: yellow;
+}
+.color-0:hover,.color-1:hover,.color-2:hover,.color-3:hover{
+opacity: 0.5;
+}
+.button_board{
+    margin: auto 35%;
+    text-align: center;
+    color: white;
+}
+.counter{
+    display: block;
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    color:black;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 4px;
+}
+.material-icons.md-36{
+    font-size:36px;
+} 
+.material-icons.md-36:hover{
+    cursor: pointer;
+}
+.start,.strict,.count{
+    font-size: 45px;
+}
